@@ -25,6 +25,7 @@
                                         "description": "The list of all tracking settings.",
                                         "items": {
                                             "type": "object",
+                                            "required": ["name", "title"],
                                             "properties": {
                                                 "name": {
                                                     "type": "string",
